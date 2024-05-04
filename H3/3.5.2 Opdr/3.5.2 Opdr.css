@@ -1,0 +1,52 @@
+body{
+    background-image: url(ec6a-your-guide-to-adopting-a-cat-article-cat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1#titelPagina{
+    text-align: center;
+    font-size: 55px;
+
+    border-width: 2px;
+    border-color: white;
+    border-style:solid;
+    border-radius: 40px;
+    background-color: blue;
+}
+h1#titelPagina:hover{
+    background-color: aqua;
+}
+
+h2#titelList{
+    text-align: center;
+    margin-left: 360px;
+
+    border-width: 2px;
+    border-color: white;
+    border-style:dotted;
+    background-color:orange;
+
+    width: 300px;
+}
+h2#titelList:hover{
+    background-color: yellow;
+}
+
+
+ul#listStyle{
+    text-align: center;
+    margin-left: 850px ;
+
+    border-width: 2px;
+    border-color: black;
+    border-style:double;
+    background-color:rgb(237, 226, 207);
+
+    width: 300px;
+    
+}
+ul#listStyle:hover{
+    background-color: grey;
+}
+

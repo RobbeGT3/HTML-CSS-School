@@ -1,0 +1,31 @@
+body{
+    background-image: url(Abstract-Pictures-On-The-Car.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+    font-size: 15;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+
+#listID{
+    text-align: left;
+    border-width: 5px;
+    border-style: double;
+    border-color: white;
+    border-radius: 30px;
+
+    position: fixed;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+
+    list-style-type: square;
+    list-style-position:outside;
+    list-style-image: url(Opsommingteken.png);
+}
