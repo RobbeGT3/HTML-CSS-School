@@ -1,0 +1,18 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    flex-wrap: wrap;
+    font-size: 35px;
+    border-color: black;
+    background-color: white;
+    flex-basis: 25%;
+    align-self: space-between;
+    border-width: 10px;
+    
+}
+
+h1{
+    text-align: center;
+
+}

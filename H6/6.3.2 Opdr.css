@@ -1,0 +1,22 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    flex-wrap: wrap;
+    font-size: 35px;
+
+    
+}
+
+.flexItems{
+    flex-basis: 20%;
+    align-self: space-between;
+    border: 10px solid cornflowerblue;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    
+
+}

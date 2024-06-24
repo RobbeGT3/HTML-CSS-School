@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Website.css">
+</head>
+
+<body>
+    <Header>
+        <div class="containerHeaderFooter">
+            <div class="itemHeaderFooter"><a href="Hoofdpagina.html"><img src="images/icons/24HA_LOGO.png" alt="logo"></a></div>
+            <div class="itemHeaderFooter">
+                <H1 class="textHeader">24 Hours of Le Mans</H1>
+            </div>
+            <div class="itemHeaderFooter">
+                <div class="dropdown">
+                    <button class="dropdownButton">Pagina's</button>
+                    <div class="dropdownContent">
+                        <a href="Hoofdpagina.html">Homepage</a>
+                        <a href="GeschiedenisPagina.html">Geschiedenis</a>
+                        <a href="2024LeMans.html">Le Mans 2024</a>
+                        <a href="ContactPagina.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Header>
+    <section id="ContactPage">
+        <div>
+            <h1>Contact</h1>
+            <p>Vul het onderstaand formulier voor als er fouten zijn in de informatie, je nieuwe informatie wilt delen of als er verbeterpunten zijn die je wilt delen.</p>
+        </div>
+        <div>
+            <form action="">
+                <fieldset>
+                    <label for="Fname">Voornaam:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="..." required><br>
+                    <label for="lname">Achternaam:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="..." required>
+                </fieldset>
+                <fieldset>
+                    <label for="Reason">Reden van Contact <br>
+                        <select name="Reason" id="Reason">
+                            <option value="">...</option>
+                            <option value="1">Fout in informatie</option>
+                            <option value="2">Verbeterpunten</option>
+                            <option value="3">informatie die toegevoegd kan worden</option>
+                        </select>
+                    </label><br><br>
+                    <label for="question">Schrijf hier wat je wilt versturen:
+                        <textarea name="question" id="question" rows="3" cols="30" placeholder="..."></textarea>
+                    </label><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <Footer>
+        <div class="containerHeaderFooter">
+            <div class="itemHeaderFooter"></div>
+            <div class="itemHeaderFooter">
+                <p class="textFooter">Made by: Robbe van Kooten</p>
+            </div>
+            <div class="itemHeaderFooter"></div>
+        </div>
+    </Footer>
+</body>
+
+</html>

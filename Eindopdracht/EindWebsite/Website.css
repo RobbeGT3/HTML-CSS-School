@@ -1,0 +1,431 @@
+/*General Styling*/
+Body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(11, 121, 255);
+    padding: 1.25rem;
+    border-bottom: 3px solid black;
+}
+
+.textHeader {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2.75rem;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdownButton {
+    background-color: rgb(11, 121, 255);
+    color: white;
+    width: 100%;
+    height: 170%;
+    font-size: 1rem;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdownContent a:hover {
+    background-color: rgb(190, 189, 189)
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdown:hover .dropdownButton {
+    background-color: rgb(89, 164, 255);
+    color: black;
+}
+
+
+footer {
+    background-color: rgb(11, 121, 255);
+    margin: 0;
+    padding: 0.125rem;
+    border-top: 3px solid black;
+}
+
+.textFooter {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerHeaderFooter {
+    margin: 0 2%;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    align-items: center;
+}
+
+.itemHeaderFooter {
+    display: inline-grid;
+    padding: 0 0.625rem;
+}
+
+.itemHeaderFooter img{
+    width:100%; 
+    height:100%;
+    margin-left: 1.875rem;
+}
+
+
+section.StandardPage {
+    margin: 0.625rem 7%;
+}
+
+.introText {
+    margin: 3.125rem 20%;
+}
+
+.introText h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+hr {
+    background-color: black;
+    margin: 1.875rem 0;
+    height: 1px;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Start Pagina*/
+div#inleiding {
+    margin: 0 5%;
+    padding: 3.125rem 0;
+
+}
+
+section#Hoofdpagina {
+    margin: 0.625rem 5%;
+}
+
+
+.flexInleiding {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inleidingTextContainer {
+    flex: 1;
+    margin: 0;
+    padding: 0.625rem;
+}
+
+.inleidingTextContainer p {
+    margin: 0.625rem 0;
+    padding: 0.625rem;
+}
+
+.inleidingTextContainer h1 {
+    margin: 0 0 0.625rem 0;
+    padding: 0;
+}
+
+
+.flexInleiding img {
+    width: 150px;
+    margin: 1.25rem;
+    border: 3px solid black;
+}
+
+.fotoGallery {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.photo {
+    flex: 1 1 40%;
+    padding: 1.5625rem;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo p {
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trackContainer {
+    display: grid;
+    margin: 1.25rem 5%;
+    grid-template-columns: 50% 50%;
+    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+
+}
+
+.trackItem {
+    display: inline-grid;
+}
+
+.trackItem img {
+    display: block;
+    float: middle;
+    height: 100%;
+    /*height: auto;*/
+    width: 100%;
+    border: 1px solid black;
+}
+
+.trackItem p {
+    text-align: center;
+    padding: 0 5%;
+}
+
+/*Pagina 1 Historie*/
+
+.flexHistory {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping */
+    padding: 3.125rem 5%; 
+}
+
+.flexHistoryContainer {
+    flex: 1;
+    margin: 0;
+    padding: 0.625rem;
+}
+
+.flexHistoryContainer h1,
+.flexHistoryContainer p {
+    margin: 0.625rem 0;
+    padding: 0.625rem;
+
+}
+
+.flexHistory img {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width for larger screens */
+    margin:1.25rem; /* Relative margin */
+    border: 2px solid black;
+}
+
+
+
+
+
+/*Pagina 2 2024LeMans*/
+
+table,
+th,
+td {
+    border: 2px solid rgb(0, 81, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabel {
+    margin:6.25rem 0;
+}
+
+.result {
+    margin: 1.875rem  0;
+
+}
+
+.flex2024Container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto; /* Center the container */
+}
+
+.flex2024Photo {
+    flex: 1 1 40%;
+    padding: 1.5625rem;
+}
+
+.flex2024Photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.flex2024Photo p {
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*Pagina 3 Contact Page*/
+
+section#ContactPage {
+    margin: 5vh 20%;
+}
+
+form {
+    border: 2px solid black;
+    margin: 5% auto;
+    padding: 0 10% 5% 10%;
+    background-color: rgb(128, 186, 231);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #ffffff;
+}
+
+
+textarea {
+    margin-top: 0.3125rem;
+    width: 100%;
+    min-height: 2em;
+}
+
+input {
+    margin-bottom: 1.25rem;
+}
+
+
+input,
+textarea {
+    background-color: #ebebeb;
+    border: 1px solid #0a0a23;
+    color: #000000;
+    width: 100%;
+}
+
+select,
+option {
+    background-color: #ebebeb;
+    color: #000000;
+    border: 1px solid #0a0a23;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 2em auto 1em;
+    height: 2em;
+    width: 60%;
+    font-size: 1.1rem;
+    background-color: rgb(113, 178, 229);
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(82, 161, 222);
+}
+::placeholder {
+    color: #000000;
+}
+
+
+
+
+@media (max-width: 768px){
+    .containerHeaderFooter {
+        margin: 0 2%;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .itemHeaderFooter img{
+        width: 50%;
+        height: 70%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .textHeader{
+        font-size: 2rem;
+    }
+
+    .textFooter{
+        font-size: 0.75rem;
+    }
+
+
+    .introText {
+        margin: 3.125rem 5%;
+    }
+
+    .flexInleiding img {
+        width: 100px; 
+        flex: 1 1 100%;
+    }
+    
+    .photo {
+        flex: 1 1 100%; 
+    }
+
+    .trackContainer {
+        grid-template-columns: 1fr; 
+    }
+
+    .flexHistory {
+        padding: 1.25rem 5%; 
+    }
+
+    .flexHistory img {
+        width: 100%; 
+        max-width: none; 
+        margin: 1.25rem auto; 
+    }
+
+    section#ContactPage {
+        margin: 5vh 10%;
+    }
+
+    form {
+        padding: 1.25rem; 
+    }
+
+}
