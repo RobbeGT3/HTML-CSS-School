@@ -11,7 +11,7 @@ header {
 }
 
 .textHeader {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
     text-align: center;
     font-size: 2.75rem;
     color: white;
@@ -188,6 +188,7 @@ section#Hoofdpagina {
     display: block;
 }
 
+
 .photo p {
     text-align: center;
     font-size: large;
@@ -198,7 +199,6 @@ section#Hoofdpagina {
     display: grid;
     margin: 1.25rem 5%;
     grid-template-columns: 50% 50%;
-    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
 
 }
 
@@ -219,6 +219,7 @@ section#Hoofdpagina {
     text-align: center;
     padding: 0 5%;
 }
+
 
 /*Pagina 1 Historie*/
 
@@ -306,7 +307,8 @@ section#ContactPage {
 }
 
 form {
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 10px;
     margin: 5% auto;
     padding: 0 10% 5% 10%;
     background-color: rgb(128, 186, 231);
@@ -376,6 +378,7 @@ input[type="submit"]:hover {
         grid-template-columns: 1fr;
         align-items: center;
     }
+    
     .itemHeaderFooter img{
         width: 50%;
         height: 70%;
@@ -391,7 +394,6 @@ input[type="submit"]:hover {
     .textFooter{
         font-size: 0.75rem;
     }
-
 
     .introText {
         margin: 3.125rem 5%;
